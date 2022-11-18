@@ -26,7 +26,7 @@ public class NamanScreenshot {
 		
 		File screenShotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		
-		FileUtils.copyFile(screenShotFile, new File(".//Screenshots/screens.png"));
+		FileUtils.copyFile(screenShotFile, new File(".//Screenshots/screensMy.png"));
 		driver.quit();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
