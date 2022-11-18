@@ -24,7 +24,7 @@ public class AlertAutomation {
 			
 			driver.get("https://sweetalert2.github.io/");
 			
-			//Thread.sleep(1000);
+			Thread.sleep(1000);
 			
 			driver.manage().window().maximize();
 			//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -34,7 +34,7 @@ public class AlertAutomation {
 			JavascriptExecutor js = (JavascriptExecutor) driver;
 			js.executeScript("javascript:window.scrollBy(0,360)");
 			Thread.sleep(1000);
-			
+			Thread.sleep(1000);
 //			WebElement alert = driver.findElement(By.xpath("/html/body/div[2]/button"));
 //			Thread.sleep(1000);
 //			alert.click();
