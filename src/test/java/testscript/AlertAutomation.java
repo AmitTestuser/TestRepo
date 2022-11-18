@@ -28,7 +28,7 @@ public class AlertAutomation {
 			
 			driver.manage().window().maximize();
 			//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-			// doesn't work for scrolling mechanism as scrolling is dimension based
+			 //doesn't work for scrolling mechanism as scrolling is dimension based
 			
 			// this is for scrolling
 			JavascriptExecutor js = (JavascriptExecutor) driver;
