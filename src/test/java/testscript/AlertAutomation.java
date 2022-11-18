@@ -23,8 +23,9 @@ public class AlertAutomation {
 		try{
 			
 			driver.get("https://sweetalert2.github.io/");
+		
 			
-			//Thread.sleep(1000);
+			Thread.sleep(1000);
 			
 			driver.manage().window().maximize();
 			//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
