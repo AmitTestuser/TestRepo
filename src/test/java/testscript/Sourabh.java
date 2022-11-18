@@ -21,7 +21,7 @@ public class Sourabh {
 		driver.get("https://www.google.com"); 
 		
 		File screenShotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(screenShotFile, new File(".//ScreenShots/screenshotSourabh.png"));
+		FileUtils.copyFile(screenShotFile, new File(".//ScreenShots/screenshotSourabh2.png"));
 		}catch(Exception es) {
 			
 		}
